@@ -6,12 +6,12 @@ ini_set('display_errors', '1');
 ini_set('display_startup_errors', '1');
 error_reporting(E_ALL);
 
-header("Access-Control-Allow-Origin: https://ta3limy.net");
+header("Access-Control-Allow-Origin: https://domain.net");
 header("Access-Control-Allow-Methods: GET, POST");
 header("Access-Control-Allow-Headers: Content-Type");
 
 // // Check if the current URL matches the desired page URL
-// if (isset($_SERVER['HTTP_REFERER']) && strpos($_SERVER['HTTP_REFERER'], 'https://www.ta3limy.net/post-list-frpm-folder/') !== false) {
+// if (isset($_SERVER['HTTP_REFERER']) && strpos($_SERVER['HTTP_REFERER'], 'https://www.domain.net/post-list-frpm-folder/') !== false) {
 //     // Check if this is a POST request
     if ($_SERVER['REQUEST_METHOD'] === 'POST') {
       
@@ -20,10 +20,10 @@ header("Access-Control-Allow-Headers: Content-Type");
   
 
 
-require_once('/www/wwwroot/test.ta3limy.net/wp-load.php');
-require_once('/www/wwwroot/test.ta3limy.net/wp-blog-header.php');
+require_once('/www/wwwroot/test.domain.net/wp-load.php');
+require_once('/www/wwwroot/test.domain.net/wp-blog-header.php');
 /*
-https://ta3limy.net/wp-content/aldoros/
+https://domain.net/wp-content/aldoros/
 التربية الاخلاقية للصف الرابع المنهاج الاماراتي/حل درس ا
 
 لسعادة مفتاح الحياة للصف الرابع المنهاج الاماراتي.webp
